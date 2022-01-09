@@ -58,7 +58,7 @@ app.use(bodyParser.urlencoded({extended:true}))
 
 
 
-app.listen(process.env.PORT||3000,()=>{
+app.listen(process.env.PORT,()=>{
     console.log("port is running at 300");
 });
 

@@ -43,6 +43,9 @@ app.use(bodyParser.urlencoded({extended:true}))
                 if(response.statusCode == 200){
                     res.sendFile(__dirname + "/success.html")
                 }
+                else{
+                    res.sendFile(__dirname + "/failure.html")
+                }
 
             });
 
@@ -55,7 +58,7 @@ app.use(bodyParser.urlencoded({extended:true}))
 
 
 
-app.listen(3000,()=>{
+app.listen(process.env.PORT||3000,()=>{
     console.log("port is running at 300");
 });
 

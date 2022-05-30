@@ -65,7 +65,3 @@ app.listen(process.env.PORT,()=>{
 
 
 
-//Api_key
-//c2c66a2c32cc686b0e8b5ace64215b2a-us10
-//listid
-//eaac78a0be
